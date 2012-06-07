@@ -1,0 +1,54 @@
+/* Tiles */
+#world {
+	background: #6a942c url("ground.png") bottom left;
+}
+
+#viewer {
+	background: #6a942c url("edge.png") bottom left;
+}
+
+.res.low {
+	background: url("house.png");
+}
+
+.com.low {
+	background: url("store.png");
+}
+
+.ind.low {
+	background: url("factory.png");
+}
+
+/* demand panel */
+#demandPanel .res .top, #demandPanel .res .bottom {
+	background: rgba(30,250,30,1);
+}
+
+#demandPanel .com .top, #demandPanel .com .bottom {
+	background: rgba(30,30,250,1);
+}
+
+#demandPanel .ind .top, #demandPanel .ind .bottom {
+	background: rgba(30,30,30,1);
+}
+
+.goldCoin {
+	width:32px;
+	height:22px;
+	background: url(gold.png) 0 0;
+	background-position:  96px 0;
+	display: inline-block;
+	margin-bottom: -6px;
+}
+
+#resButton .buttonIcon {
+	background: url("house-icon.png");
+}
+
+#comButton .buttonIcon {
+	background: url("store-icon.png");
+}
+
+#indButton .buttonIcon {
+	background: url("factory-icon.png");
+}

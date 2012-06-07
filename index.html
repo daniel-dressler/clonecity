@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="layout.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="art/art.css" type="text/css" media="screen" charset="utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div id="controls">
+	<div id="resButton">
+		<span class="buttonIcon"></span>House<div class="goldCoin"></div>100
+	</div>
+	<div id="comButton">
+		<span class="buttonIcon"></span>Store<div class="goldCoin"></div>300
+	</div>
+	<div id="indButton">
+		<span class="buttonIcon"></span>Mine<div class="goldCoin"></div>500
+	</div>
+	<div id="desButton">
+		Destroy<div class="goldCoin"></div>75
+	</div>
+	<div id="cashPanel">
+		<div class="goldCoin"></div><span></span>
+	</div>
+	<div id="demandPanel">
+		<div class="res">
+			<div class="top"></div>
+			<div class="mid">R</div>
+			<div class="bottom"></div>
+		</div>
+		<div class="com">
+			<div class="top"></div>
+			<div class="mid">C</div>
+			<div class="bottom"></div>
+		</div>
+		<div class="ind">
+			<div class="top"></div>
+			<div class="mid">I</div>
+			<div class="bottom"></div>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div id="taxPanel">
+		<form>
+			<input id="taxRate" name="tax" type="range" min="0" max="90" value="10">
+		</form>
+		<span>10</span>%
+	</div>
+	<div id="happyPanel">
+		<div>
+			:<span>)</span>
+		</div>
+	</div>
+	
+</div>
+
+<div id="viewer">
+<div id="world">
+
+</div>
+</div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/clonecity.js"></script>
+</body>
+</html>

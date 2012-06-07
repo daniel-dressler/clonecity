@@ -1,0 +1,111 @@
+html {
+	font-family: 'Ubuntu Mono', sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#controls {
+	width: 150px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	background: white;
+	box-shadow: -2px -2px 5px rgba(0,0,0,0.3);
+	z-index: 1;
+	line-height: 46px;
+	text-align: center;
+}
+
+#controls {
+	color: white;
+	cursor: pointer;
+}
+
+.buttonIcon {
+	float: left;
+	height: 46px;
+	width: 46px
+}
+
+#resButton {
+	background: rgba(30,200,30,0.8);
+}
+
+#comButton {
+	background: rgba(30,30,250,1);
+}
+
+#indButton {
+	background: rgba(30,30,30,0.7);
+}
+
+#farmButton {
+	background: rgb(128,128,0);
+}
+
+#desButton {
+	background: black;
+}
+
+#cashPanel {
+	text-align: left;
+	background: rgba(60,30,30,0.7);
+}
+
+#demandPanel {height: 54px; padding:5px 2px;}
+#demandPanel > div {float:left; width:33%;}
+
+#demandPanel .res, #demandPanel .top {height: 20px;}
+#demandPanel .top, #demandPanel .bottom {margin:0 4px;}
+#demandPanel .mid {color:black; font-size:0.8em; line-height:1em;}
+#demandPanel, #taxPanel {background:white;}
+
+div#taxPanel {text-align:left; color:black; font-size:1.1em; }
+#taxPanel input {width:90%;}
+#taxPanel > form {width:60px; display:inline-block;}
+
+#happyPanel div {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	color: olive;
+	font-size: 50px;
+	line-height: 1em;
+	text-align: center;
+}
+#happyPanel {
+	overflow: hidden;
+}
+
+
+
+#viewer {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-bottom: 261px;
+}
+
+#world {
+	position: relative;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.plot {
+	width: 128px;
+	height: 96px;
+	position: absolute;
+	background: white;
+	font-size: 13px;
+	line-height: 15px;
+	text-align: center;
+	color: white;
+}

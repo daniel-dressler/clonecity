@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="100" height="100" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="iso-64x64-outside" tilewidth="64" tileheight="32">
+  <image source="iso-64x64-outside.png" width="640" height="1024"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1stNw0AQBuC9hyhQAeJZAaEnuIYLD3FBIEqAKiiGCugEr7JWopVfiRwHku+TRmA5SM78jHdCqHbQUAyrKQuZDKdLDjIZRlPfj1NNK+7Rry5zMClqXNRhUZcV9+lPWxYXYZ7FJNVZzefoR97Xo+z6NMwzOE8/RxV/I5P+5D3N+13Xf7lsRtO7arRUq+5ecllP3f99lwzyd9ty3Qz5JXZI00wsZxJ7P01VtWNVZTELcllV13fPdZjvV3HnjftWXSax/z9hnsVtKlbTdH4s5zFOdRKq9958Lsos7ob4Ejum7VyI++5Vqqosyt7ncyGL9bTtWU33y95/BnPRp7YzJD/jY9/Ld9RHkMWmdJ2T+/R5czGMLjvtS1FPRT2na1lsXtse9ZCu34d/tL1Vl0V5/baNh9pjeRZfYTEXs608EVHs/XdYnBfmYrvijDym350Xf8frth8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+kV+jRi16
+  </data>
+ </layer>
+</map>
