@@ -43,16 +43,16 @@ function updateDemandPanel() {
 		var scale = 20;
 
 		if(stats[type] >= 0) {
-			topHeight = (stats[type] / mostProfit) * 20;
+			topHeight = (stats[type] / mostProfit) * scale;
 		} else {
-			bottomHeight = (stats[type] / mostLoss) * 20;
+			bottomHeight = (stats[type] / mostLoss) * scale;
 		}
-		$('#demandPanel .'+type + ' .top').height(topHeight).css('margin-top', 20 - topHeight);
-		$('#demandPanel .'+type + ' .bottom').height(bottomHeight).css('margin-bottom', 20 - bottomHeight);
+		$('#demandPanel .'+type + ' .top').css('height', topHeight+'px').css('margin-top', (scale - topHeight) + 'px');
+		$('#demandPanel .'+type + ' .bottom').css('height', bottomHeight+'px').css('margin-bottom', (scale - bottomHeight) + 'px');
 	}
 	
 	for(var type in stats) {
-		stats[type] = 0;
+		stats[type] = 1;
 	}
 	
 }
