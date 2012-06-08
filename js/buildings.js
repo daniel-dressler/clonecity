@@ -25,7 +25,8 @@ function plotClick(event, map) {
 	
 	var plot = $("\
 	<div data-id='"+ BUILDINGIDCOUNTER++ +"' \
-	style='top:"+ y*PLOTHEIGHT +"px; left:"+ x*PLOTWIDTH +"px;'\
+	style='top:"+ y*PLOTHEIGHT +"px; left:"+ x*PLOTWIDTH +"px;\
+	z-index: "+y+";'\
 	data-x='"+x+"' data-y='"+y+"'\
 	data-type='"+pl.name+"' data-density='low'\
 	data-edu='"+pl.education+"' data-wealth='"+pl.wealth+"'\
@@ -71,6 +72,11 @@ function getBldLoc(building) {
 		x: _getBldData(building, 'data-x'),
 		y: _getBldData(building, 'data-y'), 
 	}
+}
+
+//z-index
+function getBldZ(building) {
+	return parseInt($(building).css('z-index'));
 }
 
 //Type

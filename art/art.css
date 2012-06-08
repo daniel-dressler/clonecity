@@ -19,6 +19,39 @@
 	background: url("factory.png");
 }
 
+.message:after {
+    border-color: #FFFFFF transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    bottom: -5px;
+    content: "";
+    display: block;
+    left: 52px;
+    position: absolute;
+    width: 0;
+}
+.message:before {
+    border-color: #807B77 transparent;
+    border-style: solid;
+    border-width: 8px 8px 0;
+    bottom: -8px;
+    content: "";
+    display: block;
+    left: 49px;
+    position: absolute;
+    width: 0;
+}
+
+.message {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #807B77;
+    border-radius: 10px;
+    color: #333333;
+    margin: 1em 0 3em;
+    padding: 5px;
+    position: absolute;
+}
+
 /* demand panel */
 #demandPanel .res .top, #demandPanel .res .bottom {
 	background: rgba(30,250,30,1);

@@ -124,12 +124,16 @@ function tick() {
 		
 		wealth = wealth + afterTax;
 		setBldWealth(this, wealth);
-		if(wealth < -buildingTypes[getBldType(this)]['cost'])
+		if(wealth < -buildingTypes[getBldType(this)]['cost']) {
+			sayMessage(this, "We are bankrupt!", 2);
 			destroyPlot(this);
+		}
 	});
 	
 	updateCashPanel(Math.floor(playerState['money']))
 	updateTaxPanel(taxRate)
 	updateDemandPanel();
 	updateHappyPanel();
+	
+	gcMessages();
 }

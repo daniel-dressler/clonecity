@@ -22,3 +22,10 @@ function destroyPlot(plot) {
 function plotEmpty(x, y) {
 	return $('.plot[data-x="'+x+'"][data-y="'+y+'"]').length == 0;
 }
+
+function cordFromLoc(loc) {
+	return {
+		x: loc.x * PLOTWIDTH,
+		y: loc.y * PLOTHEIGHT,
+	}
+}
