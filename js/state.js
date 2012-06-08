@@ -34,6 +34,15 @@ var indAttr = {
 	'sign': 'I',
 	};
 
+var farmAttr = {
+	'cost': 50,
+	'wealth': 5,
+	'education': 0,
+	'labour': 1,
+	'name': 'farm',
+	'sign': 'F',
+	};
+
 var desAttr = {
 	'cost': 75,
 	'name': 'des',
@@ -43,6 +52,7 @@ var buildingTypes = {
 	'res': resAttr,
 	'com': comAttr,
 	'ind': indAttr,
+	'farm':farmAttr,
 	};
 
 var playerState = {
@@ -54,5 +64,6 @@ var playerState = {
 		'res':  1,
 		'com':  1,
 		'ind':  1,
+		'farm': 1,
 		},
 	};

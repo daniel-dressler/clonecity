@@ -19,6 +19,10 @@
 	background: url("factory.png");
 }
 
+.farm.low {
+	background: url("farm.png");
+}
+
 .message:after {
     border-color: #FFFFFF transparent;
     border-style: solid;
@@ -50,6 +54,7 @@
     margin: 1em 0 3em;
     padding: 5px;
     position: absolute;
+    max-width: 100px;
 }
 
 /* demand panel */
@@ -63,6 +68,10 @@
 
 #demandPanel .ind .top, #demandPanel .ind .bottom {
 	background: rgba(30,30,30,1);
+}
+
+#demandPanel .farm .top, #demandPanel .farm .bottom {
+	background: olive;
 }
 
 .goldCoin {
@@ -84,4 +93,8 @@
 
 #indButton .buttonIcon {
 	background: url("factory-icon.png");
+}
+
+#farmButton .buttonIcon {
+	background: url("farm-icon.png");
 }

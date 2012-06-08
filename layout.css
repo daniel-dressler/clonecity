@@ -57,7 +57,7 @@ html {
 }
 
 #demandPanel {height: 54px; padding:5px 2px;}
-#demandPanel > div {float:left; width:33%;}
+#demandPanel > div {float:left; width:25%;}
 
 #demandPanel .res, #demandPanel .top {height: 20px;}
 #demandPanel .top, #demandPanel .bottom {margin:0 4px;}

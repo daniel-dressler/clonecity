@@ -12,6 +12,9 @@ $(document).ready(function() {
 	$("#indButton").bind("click", function(event) {
 		playerState['selector'] = indAttr;
 	});
+	$("#farmButton").bind("click", function(event) {
+		playerState['selector'] = farmAttr;
+	});
 	$("#desButton").bind("click", function(event) {
 		playerState['selector'] = desAttr;
 	});
