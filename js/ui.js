@@ -43,7 +43,7 @@ function updateDemandPanel() {
 	for(var type in stats) {
 		var topHeight = 0;
 		var bottomHeight = 0;
-		var scale = 20;
+		var scale = 12;
 
 		if(stats[type] >= 0) {
 			topHeight = (stats[type] / mostProfit) * scale;

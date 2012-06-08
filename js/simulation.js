@@ -127,6 +127,8 @@ function tick() {
 		if(wealth < -buildingTypes[getBldType(this)]['cost']) {
 			sayMessage(this, "We are bankrupt!", 2);
 			destroyPlot(this);
+		} else if(wealth < 0) {
+			sayMessage(this, "We are going bankrupt.", 2);
 		}
 	});
 	
