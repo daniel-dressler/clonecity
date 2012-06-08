@@ -55,7 +55,26 @@
     padding: 5px;
     position: absolute;
     max-width: 100px;
+    opacity: 0;
 }
+
+.message.lifespan2 {
+    -webkit-animation: messageFade 6s 1;
+    -moz-animation: messageFade 6s 1;
+}
+
+@-webkit-keyframes messageFade {
+    0% { opacity: 1; }
+    95% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes messageFade {
+    0% { opacity: 1; }
+    95% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 
 /* demand panel */
 #demandPanel .res .top, #demandPanel .res .bottom {
