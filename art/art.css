@@ -1,10 +1,6 @@
 /* Tiles */
 #world {
-	background: #6a942c url("ground.png") bottom left;
-}
-
-#viewer {
-	background: #6a942c url("edge.png") bottom left;
+	background: #6a942c url("ground.png");
 }
 
 .res.low {
