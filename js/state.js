@@ -6,6 +6,7 @@ var money = 10000;
 var population = 0;
 var MSPERTICK = 100;
 var ECONSCALE = 5;
+var GCPERIOD = 6000;
 
 var resAttr = {
 	'cost': 100,

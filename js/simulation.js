@@ -19,8 +19,9 @@ $(document).ready(function() {
 		playerState['selector'] = desAttr;
 	});
 	
+	var tickCount = 42;
 	var runGame = window.setInterval( function(){ 
-		tick(); 
+		tick( tickCount++ ); 
 	}, MSPERTICK );
 
 
@@ -101,7 +102,7 @@ function calcEcon() {
 	});
 }
 
-function tick() {
+function tick( tickCount ) {
 	var taxRate = $('#taxRate').val();
 	playerState['taxRate'] = taxRate/100;
 
@@ -128,7 +129,7 @@ function tick() {
 			sayMessage(this, "We are bankrupt!", 2);
 			destroyPlot(this);
 		} else if(wealth < 0) {
-			sayMessage(this, "We are going bankrupt.", 2);
+			sayMessage(this, "We are going bankrupt.", 2, 30);
 		}
 	});
 	
@@ -137,5 +138,6 @@ function tick() {
 	updateDemandPanel();
 	updateHappyPanel();
 	
-	gcMessages();
+	if(tickCount % GCPERIOD == 0)
+		gcMessages();
 }
