@@ -55,19 +55,19 @@
 }
 
 .message.lifespan2 {
-    -webkit-animation: messageFade 6s 1;
-    -moz-animation: messageFade 6s 1;
+    -webkit-animation: messageFade 2s 1;
+    -moz-animation: messageFade 2s 1;
 }
 
 @-webkit-keyframes messageFade {
     0% { opacity: 1; }
-    95% { opacity: 1; }
+    70% { opacity: 1; }
     100% { opacity: 0; }
 }
 
 @-moz-keyframes messageFade {
     0% { opacity: 1; }
-    95% { opacity: 1; }
+    70% { opacity: 1; }
     100% { opacity: 0; }
 }
 

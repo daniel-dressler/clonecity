@@ -1,12 +1,9 @@
 'use strict';
 var PLOTWIDTH = 128;
 var PLOTHEIGHT = 96;
-var _playerselection = "res";
-var money = 10000;
-var population = 0;
 var MSPERTICK = 100;
 var ECONSCALE = 5;
-var GCPERIOD = 6000;
+var GCPERIOD = 6000/MSPERTICK;
 
 var resAttr = {
 	'cost': 100,
