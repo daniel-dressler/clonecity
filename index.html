@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" media="screen" charset="utf-8" />
-<link rel="stylesheet" href="layout.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="art/art.css" type="text/css" media="screen" charset="utf-8" />
-<link rel="stylesheet" href="menu.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" charset="utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
 <meta content="minimum-scale=1, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
 </head>
 <body>
 <div id="controls">
-	<div id="resButton">
+	<a id="resButton" class="btn btn-info">
 		<span class="buttonIcon"></span>House<div class="goldCoin"></div>100
-	</div>
-	<div id="comButton">
+	</a>
+	<a id="comButton" class="btn">
 		<span class="buttonIcon"></span>Store<div class="goldCoin"></div>300
-	</div>
-	<div id="indButton">
+	</a>
+	<a id="indButton" class="btn">
 		<span class="buttonIcon"></span>Mine<div class="goldCoin"></div>500
-	</div>
-	<div id="farmButton">
+	</a>
+	<a id="farmButton" class="btn">
 		<span class="buttonIcon"></span>Farm<div class="goldCoin"></div>50
-	</div>
-	<div id="desButton">
+	</a>
+	<a id="desButton" class="btn">
 		Destroy<div class="goldCoin"></div>75
-	</div>
-	<div id="cashPanel">
+	</a>
+	<a id="cashPanel" class="btn btn-warning disabled">
 		<div class="goldCoin"></div><span></span>
-	</div>
-	<div id="demandPanel">
+	</a>
+	<a id="demandPanel" class="btn btn-warning disabled">
 		<div class="res">
 			<div class="top"></div>
 			<div class="mid">R</div>
@@ -51,18 +51,18 @@
 			<div class="bottom"></div>
 		</div>
 		<div style="clear:both;"></div>
-	</div><!--
+	</a><!--
 	<div id="taxPanel">
 		<form>
 			<input id="taxRate" name="tax" type="range" min="0" max="90" value="10">
 		</form>
 		<span>10</span>%
-	</div>-->
-	<div id="happyPanel">
+	</div>
+	<a id="happyPanel" class="btn disabled">
 		<div>
 			:<span>)</span>
 		</div>
-	</div>
+	</a>-->
 	
 </div>
 
@@ -98,12 +98,23 @@
 	</div>
 </div>
 <script src="js/zepto.js"></script>
+<script src="js/crafty.js"></script>
+<script src="js/config.js"></script><!--
 <script src="js/state.js"></script>
 <script src="js/buildings.js"></script>
 <script src="js/world.js"></script>
 <script src="js/messaging.js"></script>
 <script src="js/simulation.js"></script>
-<script src="js/ui.js"></script>
+<script src="js/ui.js"></script>-->
+<script src="js/spirits.js"></script>
+<script src="js/gta.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/controls.js"></script>
+<!--<script type="text/javascript">
+	Crafty.init();
+
+	// YOUR GAME CODE
+
+</script>-->
 </body>
 </html>
