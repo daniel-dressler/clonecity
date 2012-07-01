@@ -4,9 +4,8 @@
 #controls {display: none;}
 
 body, html, #menu_wrapper {width: 100%;	height: 100%;}
-#menu_wrapper {
+#menu_wrapper, #menu_bg, #menu {
 	z-index: 10000000000;
-	text-align: center;
 	/*display: none;*/
 }
 #menu_bg {
@@ -16,7 +15,7 @@ body, html, #menu_wrapper {width: 100%;	height: 100%;}
 	top: 0;
 	bottom: 0;
 }
-#menu_wrapper {display:table;}
+#menu_wrapper {display:table; position:absolute;}
 #menu_cell {display:table-cell; vertical-align:middle;}
 
 
@@ -27,7 +26,7 @@ body, html, #menu_wrapper {width: 100%;	height: 100%;}
 }
 
 #menu {
-	z-index: 10000000001;
+	text-align: center;
 	width: 400px;
 	position: relative;
 	margin: 0 auto;

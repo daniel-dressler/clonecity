@@ -8,6 +8,10 @@ html {
 	user-select: none;
 }
 
+body {
+	background: url("../art/dirt_center.png");
+}
+
 #controls {
 	position: fixed;
 	top: 10px;
