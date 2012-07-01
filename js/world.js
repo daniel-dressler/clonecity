@@ -3,7 +3,8 @@
 
 $(document).ready(function() {
 	//bind building
-	$("#world").bind("click", function(event) {
+	$("#world").on("click tap", function(event) {
+		event.preventDefault();
 		plotClick(event, this);
 	});
 	

@@ -20,12 +20,14 @@ html {
 	float: left;
 }
 
+form {margin:0;}
+
 #resButton, #comButton, #indButton, 
 #farmButton, #desButton, #cashPanel,
 #demandPanel, #happyPanel, #taxPanel {
 	width: 170px;
 	float: left;
-	box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: inset -2px -2px 15px rgba(0, 0, 0, 0.4);
 }
 
 .buttonIcon {

@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="layout.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="art/art.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="menu.css" type="text/css" media="screen" charset="utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
-
+<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+<meta content="minimum-scale=1, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
 </head>
 <body>
 <div id="controls">
@@ -48,13 +51,13 @@
 			<div class="bottom"></div>
 		</div>
 		<div style="clear:both;"></div>
-	</div>
+	</div><!--
 	<div id="taxPanel">
 		<form>
 			<input id="taxRate" name="tax" type="range" min="0" max="90" value="10">
 		</form>
 		<span>10</span>%
-	</div>
+	</div>-->
 	<div id="happyPanel">
 		<div>
 			:<span>)</span>
@@ -69,12 +72,38 @@
 </div>
 </div>
 
-<script src="js/zepto.min.js"></script>
+<div id="menu_wrapper">
+	<div id="menu_bg">
+	</div>
+	<div id="menu_cell">
+		<div id="menu">
+			<div id="menucard-main" class="menucard">
+				<h1>Ye Olde<br>Township</h1>
+				<h3>A town of old</h3>
+				<ul class="nav nav-tabs nav-stacked">
+					<li><a id="btn-resume" class="btn btn-info" href="hidemenu">Resume</a>
+					<li><a class="btn" href="main">New</a>
+					<li><a class="btn" href="main">Load</a>
+					<li><a class="btn" href="main">Save</a>
+					<li><a class="btn" href="about">About</a>
+				</ul>
+			</div>
+			<div id="menucard-about" class="menucard">
+				<iframe src="readme"></iframe>
+				<ul class="nav nav-tabs nav-stacked">
+					<li><a class="btn" href="main">↤Back</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/zepto.js"></script>
 <script src="js/state.js"></script>
 <script src="js/buildings.js"></script>
 <script src="js/world.js"></script>
 <script src="js/messaging.js"></script>
 <script src="js/simulation.js"></script>
 <script src="js/ui.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

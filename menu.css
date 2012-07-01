@@ -1,0 +1,47 @@
+/* default visibility */
+.menucard {display: none;}
+#menucard-main {display: block;}
+#controls {display: none;}
+
+body, html, #menu_wrapper {width: 100%;	height: 100%;}
+#menu_wrapper {
+	z-index: 10000000000;
+	text-align: center;
+	/*display: none;*/
+}
+#menu_bg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+#menu_wrapper {display:table;}
+#menu_cell {display:table-cell; vertical-align:middle;}
+
+
+#menu_bg {
+	box-shadow: inset 0px 0px 30px rgba(0,0,0,0.3);
+	background: url(art/menubg.png) center center;
+	opacity: 0.7;
+}
+
+#menu {
+	width: 400px;
+	position: relative;
+	margin: 0 auto;
+	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Raleway', cursive;
+	background: url(art/menubg.png) center center;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+	font-size: 2em;
+	line-height: 1.01em;
+	margin-top: 18px;
+}
+#menu .btn {font-size: 3em; line-height:1.01em;}
+
+#menucard-about iframe {width:97%; margin-top:5px; height: 300px}
+
+#menucard-main h1  {font-size:2.45em; padding-top:24px; line-height:0.85em; color: #555555;}
+#menucard-main h3  {font-size:1.2em; margin-bottom:1em; opacity:0.5;}
+

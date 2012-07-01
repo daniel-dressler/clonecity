@@ -2,20 +2,20 @@
 
 $(document).ready(function() {
 	//bind controls
-	$("#world").bind("click", function(event) {
+	$("#world").on("click tap", function(event) {
 		plotClick(event, this);
 	});
 	
-	$("#resButton").bind("click", function(event) {
+	$("#resButton").on("click tap", function(event) {
 		playerState['selector'] = resAttr;
 	});
-	$("#comButton").bind("click", function(event) {
+	$("#comButton").on("click tap", function(event) {
 		playerState['selector'] = comAttr;
 	});
-	$("#indButton").bind("click", function(event) {
+	$("#indButton").on("click tap", function(event) {
 		playerState['selector'] = indAttr;
 	});
-	$("#desButton").bind("click", function(event) {
+	$("#desButton").on("click tap", function(event) {
 		playerState['selector'] = desAttr;
 	});
 	
