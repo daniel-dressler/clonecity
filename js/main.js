@@ -2,7 +2,8 @@
 var ENTS = {};
 
 window.onload = function() {
-	Crafty.load(["art/grass.png, art/dirt.png, art/water.png"], function() {
+	Crafty.load(["art/grass.png, art/dirt.png, art/water.png,"
+			   + " art/buildings.png"], function() {
 		initSprites();
 		init();
 	});
@@ -14,6 +15,9 @@ window.onload = function() {
 		Crafty.init(width, height);
 		Crafty.canvas.init();
 		generateWorld(width, height);
+		
+		
+		Crafty.e("2D, Canvas, market_static").attr({x: 100, y: 100});
 	};
 };
 

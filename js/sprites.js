@@ -5,6 +5,7 @@ function initSprites()
 	initGrass();
 	initDirt();
 	initWater();
+	initBuildings();
 }
 
 
@@ -79,4 +80,16 @@ function initWater()
 	};
 	
 	Crafty.sprite(TILESIZE, "art/water.png", SPRITES);
+}
+
+function initBuildings()
+{
+	var SPRITES = {
+		market_static: [2,1,5,5],
+		house_static: [3,7,5,5],
+		farm_static: [15,8,5,5],
+		lake_static: [9,17,5,5],
+	};
+	
+	Crafty.sprite(TILESIZE, "art/buildings.png", SPRITES);
 }

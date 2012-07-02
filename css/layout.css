@@ -29,8 +29,7 @@ form {margin:0;}
 
 
 #resButton, #comButton, #indButton, 
-#farmButton, #desButton, #cashPanel,
-#demandPanel, #happyPanel, #taxPanel {
+#farmButton, #desButton, #cashPanel {
 	width: 170px;
 	float: left;
 	line-height: 46px;

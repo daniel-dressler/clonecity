@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dirt" tilewidth="32" tileheight="32">
+  <image source="dirt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="grass" tilewidth="32" tileheight="32">
+  <image source="grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="37" name="fence" tilewidth="32" tileheight="32">
+  <image source="submission_daneeklu/tilesets/fence.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="55" name="wheat" tilewidth="32" tileheight="32">
+  <image source="submission_daneeklu/tilesets/wheat.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="73" name="dirt2" tilewidth="32" tileheight="32">
+  <image source="dirt2.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="91" name="farming_fishing" tilewidth="32" tileheight="32">
+  <image source="submission_daneeklu/tilesets/farming_fishing.png" width="640" height="640"/>
+ </tileset>
+ <tileset firstgid="491" name="house" tilewidth="32" tileheight="32">
+  <image source="house.png" width="288" height="224"/>
+ </tileset>
+ <tileset firstgid="554" name="water" tilewidth="32" tileheight="32">
+  <image source="water.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="572" name="lavarock" tilewidth="32" tileheight="32">
+  <image source="lavarock.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="590" name="hole" tilewidth="32" tileheight="32">
+  <image source="hole.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="608" name="holemid" tilewidth="32" tileheight="32">
+  <image source="holemid.png" width="96" height="192"/>
+ </tileset>
+ <layer name="dirt" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0TENAAAIBDE84t8LBphY+KFNTsFVAQAA5Osl/viRxY8sfmTxAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgYjKIIHA==
+  </data>
+ </layer>
+ <layer name="grass" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2LkKwkAUhtEhj6ARxQ0LtXbf3v/BnELkImIRlInkHPgLu8t8lUmJNupVKfXD6qr0Rd22zO+/ClvrUZQe7aJHu0zy+0/DZnrA0+zNKKdJjzpvETb4zWmd1KTH/OX39NtHdZge7aLH/xvmjcNGZc8BAD7YVCltw3Yfvm35n/97+/z+t7zDY0c9itqHFnqUF3tc9SjulN//HHbRAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgC+5A2akD/g=
+  </data>
+ </layer>
+ <layer name="tables" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzsENglAURUH67wMpAFwABSALtQChF25+Be5eQmaSsz9dB/xjTFN6Vo/QbOmV9uoRml860lk9AgAAAAAAN9WnRxqqR2jmtKS1eoTmnT7pWz0CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADArVwRjw2T
+  </data>
+ </layer>
+ <layer name="fence" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEKhEAMBdC5jCvuYiHq3v9optRpbMQJ+h78Il3gN0kpZPSLfHYZ267zesPJzL2+1ayPtuo+6pl7TZElskb+kbntOgCXciPn4kbORR+56CMXNzIAAMCzdeX49/Vt1wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBBNmDoBnU=
+  </data>
+ </layer>
+ <layer name="wheat" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKwjAQhtHQU7lRSzWtSrz/dRxMF1m5HdT34NsP+Sm0FAAAgO9wjE7ROfsQ3uboENXkO+jmaIm25DvoLqV/G2v2IQAAP2qZ4p9r6DplX/Tfarz/GrXoGW32SFX3Ldq+iz1y1WGLZo90t3j/+9DDHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHzwAjEtCjw=
+  </data>
+ </layer>
+ <layer name="stock" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0cEJwkAURdGkDnEbUHEhUWu1Cu1Bm7EMXyABceXuD+QcuAyze/C7DvjHPT3Stq9ewuSZXmnjHk14z++tdAUAAAAAsBaHNHx1rJ2zevuf/65kBQv3aIt7tOWUzumSrmmsnQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDjPocOB2M=
+  </data>
+ </layer>
+ <layer name="walls" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1rkNQjEURFH/HyCWBoBSWVpgqRPIgIxlQjeALOFzpJtbbxKXAgAA/28yljJL87RI07H1i/q2zP1XVWt7NHUZSrlW3YbWL+rbPfd/VD3t0dQr939XfewBAPAzm/y1tmmX9v5dzR2ywTGd0tkeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHToCwirE1w=
+  </data>
+ </layer>
+ <layer name="stairs" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt10ENADAMA7GUw/hTHIUx6HdVZSM4Ka8kAAAAAHRu/S4AAABIyjcZ5dgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVnsuuwEI
+  </data>
+ </layer>
+ <layer name="decorations" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEKgDAQRNHEm1t6WUFSCMHCNII5gOyC753gwzClAADA/xw1uoC3bo8U6hJdwKONT+x+kcY1tjjtAQAAJLBGBzDZogMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAT91fGAbT
+  </data>
+ </layer>
+</map>
