@@ -5,6 +5,7 @@ function initSprites()
 {
 	initGrass();
 	initDirt();
+	initWater();
 }
 
 
@@ -68,4 +69,15 @@ function initDirt()
 	};
 	
 	Crafty.sprite(32, "art/dirt.png", SPRITES_DIRT);
+}
+
+function initWater()
+{
+	var SPRITES = {
+		water_tuff: [0,0],
+		water_speck: [0,1],
+		
+	};
+	
+	Crafty.sprite(32, "art/water.png", SPRITES);
 }

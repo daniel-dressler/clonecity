@@ -2,7 +2,7 @@
 var ENTS = {};
 
 window.onload = function() {
-	Crafty.load(["art/grass.png, art/dirt.png"], function() {
+	Crafty.load(["art/grass.png, art/dirt.png, art/water.png"], function() {
 		initSprites();
 		init();
 	});
