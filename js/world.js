@@ -18,14 +18,10 @@ function mapPosToTile(x, y)
 	x = x / 16;
 	y = y / 16 ;
 	var num = perlin(x, y) % 2;
-	if (num < -1.25)
-		return "water_tuff";
-	if (num < -1.15)
-		return "water_speck";
 		
-	if (num >  1.2)
+	if (num >  1.35)
 		return "grass_tuff";
-	if (num >  1.05)
+	if (num >  1.2)
 		return "grass_speck";
 	if (num >  0.9)
 		return "grass_center_3week";
@@ -37,10 +33,10 @@ function mapPosToTile(x, y)
 
 var BIAS = 0.0;
 var TILEMAPPERLIN = new SimplexNoise();
-var persistence = 0.5;
-var frequency = 0.07;
-var amplitude  = 1.4;
-var octaves = 3;
+var persistence = 0.7;
+var frequency = 0.1;
+var amplitude  = 0.1;
+var octaves = 2;
 var randomseed = 0.123134;
 function perlin(x, y)
 {

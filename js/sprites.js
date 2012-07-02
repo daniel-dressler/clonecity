@@ -1,6 +1,5 @@
 'use strict';
 
-var spriteList = [];
 function initSprites()
 {
 	initGrass();
@@ -37,7 +36,7 @@ function initGrass()
 		
 	};
 	
-	Crafty.sprite(32, "art/grass.png", SPRITES_GRASS);
+	Crafty.sprite(TILESIZE, "art/grass.png", SPRITES_GRASS);
 }
 
 function initDirt()
@@ -68,7 +67,7 @@ function initDirt()
 		
 	};
 	
-	Crafty.sprite(32, "art/dirt.png", SPRITES_DIRT);
+	Crafty.sprite(TILESIZE, "art/dirt.png", SPRITES_DIRT);
 }
 
 function initWater()
@@ -79,5 +78,5 @@ function initWater()
 		
 	};
 	
-	Crafty.sprite(32, "art/water.png", SPRITES);
+	Crafty.sprite(TILESIZE, "art/water.png", SPRITES);
 }

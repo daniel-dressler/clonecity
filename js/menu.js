@@ -2,14 +2,14 @@
 
 $(document).ready(function() {
 	//bind menu buttons	
-	$("#menu .btn").on("click tap touchstart", function(event) {
+	$("#menu a.btn").on(CLICKEVENTS, function(event) {
 		event.preventDefault();
 		switchMenuCard(this);
 	});
 });
 
 function switchMenuCard( btn ) {
-	var card = $(btn).attr('href');
+	var card = $(btn).attr('data-card');
 	
 	if (card == "hidemenu") {
 		$("#menu_wrapper").hide();
