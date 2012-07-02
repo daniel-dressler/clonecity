@@ -45,13 +45,6 @@ form {margin:0;}
 	width: 46px
 }
 
-
-#demandPanel {overflow:hidden;}
-#demandPanel > div {float:left; width:25%;}
-
-#demandPanel .top, #demandPanel .bottom {height: 12px;margin:0 4px;}
-#demandPanel .mid {color:black; font-size:0.8em; line-height:1em;}
-
 #viewer {
 	position: fixed;
 	top: 0;
